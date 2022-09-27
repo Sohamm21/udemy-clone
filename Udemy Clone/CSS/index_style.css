@@ -1,0 +1,219 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.nav {
+    /* box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%); */
+    width: 100%;
+    height: 70px;
+    border: 1px;
+    border-color: rgba(220, 220, 220, 0.9);
+    border-style: solid;
+    border-width: 0.01em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.bottomNav {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+#udemyLogo {
+    color: black;
+    margin: 19px;
+    margin-top: 13px;
+}
+
+.udemyFont {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial,
+        sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+
+.fontStyle1 {
+    padding-bottom: 10px;
+    font-size: 14px;
+    float: inline-start;
+}
+
+.fontStyle2 {
+    float: right;
+    margin-left: 25px;
+}
+
+h1 {
+    font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+
+.adText {
+    font-family: udemy sans, sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-field {
+    width: 100%;
+    padding: 15px 35px 15px 15px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-top: 5px;
+    outline: none;
+    margin-right: 1px;
+    cursor: pointer;
+    /* margin-left: -33px; */
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.searchBar {
+    width: 710px;
+    border: 1px solid black;
+    border-radius: 25px;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.iconStyle-button {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-top: 14px;
+    outline: none;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.iconStyle-button img {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.navText {
+    cursor: pointer;
+}
+
+.billboard_white {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 50%;
+    padding-top: 3px;
+    padding-left: 25px;
+}
+
+.billboard_grey {
+    background-color: rgba(230, 230, 230, 0.553);
+    width: 70%;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.myLearning {
+    color: #5624d0;
+    float: right;
+    margin-top: -45px;
+    cursor: pointer;
+    margin-right: 500px;
+}
+
+.offerBillboard {
+    border-color: rgba(220, 220, 220, 0.9);
+    border-style: solid;
+    border-width: 0.01em;
+    margin-right: 500px;
+    height: 250px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.lightText {
+    margin-left: 20px;
+    float: left;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.lightText1 {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.videosList {
+    float: left;
+    padding: 5px;
+    display: block;
+}
+
+.videosThumbnail {
+    height: 120px;
+    width: 192px;
+}
+
+#wrapper {
+    height: 100px;
+    width: 193px;
+}
+
+#inner1 {
+    float: left;
+}
+
+#inner2 {
+    float: left;
+    clear: left;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    margin-right: 10px;
+    margin-left: -20px;
+    padding: 10px;
+}
+  
